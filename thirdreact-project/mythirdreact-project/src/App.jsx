@@ -20,31 +20,13 @@ const ACTION ={
 
 function App() {
 
-  // const [key,setName] = useState("");
-  // const [numkey,setNumkey] = useState(0);
   const [state,dispatch] = useReducer(firstReducer,{numkey : 0, showtext : "Hello"});
 
   return(
    <div className="App">
      <h1>Hello World</h1>
 
-     {/* <input type="text" className="formcontrol" onChange={(e)=>{
-        setName(e.target.value);
-     }} /> */}
-
-
-     {/* <h1 className="showanskeys">My answer is : {key} </h1> */}
-
-     {/* <button type="button" className="btn" onClick={()=>{
-      setNumkey((prev)=>prev - 1);
-     }}> - </button> */}
-
-    {/* <span className="showcenternums">{numkey}</span> */}
-
-
-     {/* <button type="button" className="btn" onClick={()=>{
-      setNumkey((prev)=>prev + 1);
-     }}> + </button> */}
+    
 
 
      {/* useEffect  */}
